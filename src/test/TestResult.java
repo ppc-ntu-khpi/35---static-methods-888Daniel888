@@ -1,12 +1,13 @@
 package test;
-
 import domain.Exercise;
 
 public class TestResult {
 
     public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
-    }
+        String mesage = "88sDanielSs88";
+        System.out.println(mesage+" :");
+        byte[] m = Exercise.Encrypt(mesage, "stack_overlow");
+        for (byte i : m) System.out.print(i);
+        System.out.println();
+        }
 }
